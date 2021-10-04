@@ -1,0 +1,6 @@
+{
+	"appId": "patakmo.app.scanner",
+	"appName": "patakMO!!",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

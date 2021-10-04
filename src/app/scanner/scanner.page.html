@@ -1,0 +1,31 @@
+<ion-content>
+  <ion-slides (ionSlideReachStart)="doScan()" scrollbar="false" pager="false" [options]="slides">
+    <ion-slide>
+     <h1>slide me please</h1>
+    </ion-slide>
+
+    <ion-slide class="cover">
+      <div class="loader-screen">
+        <ion-spinner color="secondary" name="dots"></ion-spinner>
+      </div>
+    </ion-slide>
+    <ion-slide  class="cover">
+      <div class="wrapper">
+        <div class="title-header">
+          <img (click)="clear()" src="../../assets/images/cover-icon.png">
+          <span class="patak">PatakMO!!</span>
+          <span class="docscan">Document Scanner.</span>
+        </div>
+
+        <div class="product-title">
+          <span class="powered">Powered by amanasoft.</span> 
+          <span class="version">v1.0</span>
+        </div>
+      </div>
+
+      <div class="push-button">
+        <ion-icon color="medium" name="pause-outline"></ion-icon>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
